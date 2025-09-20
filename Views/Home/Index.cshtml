@@ -1,0 +1,14 @@
+﻿@model age_mate_v2.Models.AgeDetails
+@{
+    ViewData["Title"] = "Age Calculator";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Age Calculator</h1>
+
+    <div class="age-display mt-5">
+        <p>First Age: <span class="fw-bold">@Model.Age1</span> years</p>
+        <p>Second Age: <span class="fw-bold">@Model.Age2</span> years</p>
+        <p class="total-age">Total Age: <span class="fw-bold text-primary">@Model.TotalAge</span> years</p>
+    </div>
+</div>
